@@ -1,6 +1,6 @@
 export default function Header() {
 
-    const name = "Alderson"
+    const name = "Alders"
 
     return (
         <>

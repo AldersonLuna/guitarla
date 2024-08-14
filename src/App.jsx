@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./assets/components/Header";
-
+//import Header from "@/assets/components/Header"
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,7 +14,7 @@ function App() {
               <a href="index.html">
                 <img
                   class="img-fluid"
-                  src="./public/img/logo.svg"
+                  src="/src/assets/img/logo.svg"
                   alt="imagen logo"
                 />
               </a>
@@ -23,7 +23,7 @@ function App() {
               <div class="carrito">
                 <img
                   class="img-fluid"
-                  src="./public/img/carrito.png"
+                  src="/src/assets/img/carrito.png"
                   alt="imagen carrito"
                 />
 
@@ -44,7 +44,7 @@ function App() {
                         <td>
                           <img
                             class="img-fluid"
-                            src="./public/img/guitarra_02.jpg"
+                            src="/src/assets/img/guitarra_02.jpg"
                             alt="imagen guitarra"
                           />
                         </td>
@@ -89,7 +89,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_01.jpg"
+                src="/src/assets/img/guitarra_01.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -110,7 +110,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_02.jpg"
+                src="/src/assets/img/guitarra_02.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -131,7 +131,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_03.jpg"
+                src="/src/assets/img/guitarra_03.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -152,7 +152,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_04.jpg"
+                src="/src/assets/img/guitarra_04.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -173,7 +173,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_05.jpg"
+                src="/src/assets/img/guitarra_05.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -194,7 +194,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_06.jpg"
+                src="/src/assets/img/guitarra_06.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -215,7 +215,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_07.jpg"
+                src="/src/assets/img/guitarra_07.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -235,7 +235,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_08.jpg"
+                src="/src/assets/img/guitarra_08.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -255,7 +255,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_09.jpg"
+                src="/src/assets/img/guitarra_09.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -275,7 +275,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_10.jpg"
+                src="/src/assets/img/guitarra_10.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -295,7 +295,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_11.jpg"
+                src="/src/assets/img/guitarra_11.jpg"
                 alt="imagen guitarra"
               />
             </div>
@@ -315,7 +315,7 @@ function App() {
             <div class="col-4">
               <img
                 class="img-fluid"
-                src="./public/img/guitarra_12.jpg"
+                src="/src/assets/img/guitarra_12.jpg"
                 alt="imagen guitarra"
               />
             </div>
